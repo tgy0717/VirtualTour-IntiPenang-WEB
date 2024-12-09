@@ -59,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/VR-Web.loader.js";
       var config = {
-        dataUrl: buildUrl + "/VR-Web.data.gz",
-        frameworkUrl: buildUrl + "/VR-Web.framework.js.gz",
-        codeUrl: buildUrl + "/VR-Web.wasm.gz",
+        dataUrl: buildUrl + "/VR-Web.data.unityweb",
+        frameworkUrl: buildUrl + "/VR-Web.framework.js.unityweb",
+        codeUrl: buildUrl + "/VR-Web.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "INTI International College Penang ",
         productName: "INTI International College Penang",
@@ -94,8 +94,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1505px";
-        canvas.style.height = "850px";
+        canvas.style.width = "1400px";
+        canvas.style.height = "880px";
       }
 
       loadingBar.style.display = "block";
